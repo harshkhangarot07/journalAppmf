@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "JournalApplication",
+            "request": "launch",
+            "mainClass": "com.newProjectday2.journalAppmf.JournalApplication",
+            "projectName": "journalAppmf"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-JournalAppmfApplication<journalAppmf>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.newProjectday2.journalAppmf.JournalAppmfApplication",
+            "projectName": "journalAppmf",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
